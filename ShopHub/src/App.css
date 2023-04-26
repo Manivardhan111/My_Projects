@@ -1,0 +1,50 @@
+/* .navItem a,
+a:active {
+  font-size: 20px;
+  font-style: italic;
+  color: #ffc307;
+}
+.navbar-nav a:hover {
+  border: 3px;
+  border-radius: 30px;
+  background-color: #ffc307;
+}
+.card-title {
+  text-overflow: auto;
+} */
+
+
+ .card {
+  transition: all 0.25s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px rgba(28, 25, 25, 0.5);
+} 
+
+.cardImg{
+  transition: all 0.25s ease;
+}
+.CardImg::selection{
+  transform: scale(1.1);
+}
+
+
+.row {
+  width:100%;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 110px;
+}
+.product {
+  background-color: aliceblue;
+  border: 3px solid burlywood;
+  border-radius: 15px;
+}
+ul li{
+padding-right:50px;
+padding-left: 50px;
+list-style:none;
+
+}
